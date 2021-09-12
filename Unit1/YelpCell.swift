@@ -8,7 +8,10 @@
 import UIKit
 
 class YelpCell: UITableViewCell {
-
+    @IBOutlet weak var title: UILabel!
+    @IBOutlet weak var phoneNumber: UILabel!
+    @IBOutlet weak var reviewCount: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
