@@ -71,6 +71,17 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         return cell
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        print("Leaving View Controller")
+        let cell = sender as! UITableViewCell
+        let indexPath = tableView.indexPath(for: cell)
+        let business = businesses![indexPath!.row]
+        
+        let detailsVC = segue.destination as! BusinessDetailsVC
+        detailsVC.businessDetails = business
+        tableView.deselectRow(at: indexPath!, animated: true)
+    }
 }
 
 struct Response: Codable {

@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B6C4C0C26F63A96004EB72F /* BusinessDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6C4C0B26F63A96004EB72F /* BusinessDetailsVC.swift */; };
 		0B953F4D26ECF9A300926A4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B953F4C26ECF9A300926A4D /* AppDelegate.swift */; };
 		0B953F4F26ECF9A300926A4D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B953F4E26ECF9A300926A4D /* SceneDelegate.swift */; };
 		0B953F5126ECF9A300926A4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B953F5026ECF9A300926A4D /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		0AC6F7455B7AE16E3D3CEA3B /* Pods-Unit1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unit1.release.xcconfig"; path = "Target Support Files/Pods-Unit1/Pods-Unit1.release.xcconfig"; sourceTree = "<group>"; };
+		0B6C4C0B26F63A96004EB72F /* BusinessDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetailsVC.swift; sourceTree = "<group>"; };
 		0B953F4926ECF9A300926A4D /* Unit1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unit1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B953F4C26ECF9A300926A4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B953F4E26ECF9A300926A4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				0B953F5726ECF9A600926A4D /* LaunchScreen.storyboard */,
 				0B953F5A26ECF9A600926A4D /* Info.plist */,
 				0B953F6026ED073700926A4D /* YelpCell.swift */,
+				0B6C4C0B26F63A96004EB72F /* BusinessDetailsVC.swift */,
 			);
 			path = Unit1;
 			sourceTree = "<group>";
@@ -91,7 +94,6 @@
 				507A71A78E42B0FE221328F2 /* Pods-Unit1.debug.xcconfig */,
 				0AC6F7455B7AE16E3D3CEA3B /* Pods-Unit1.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -212,6 +214,7 @@
 				0B953F5126ECF9A300926A4D /* ViewController.swift in Sources */,
 				0B953F4D26ECF9A300926A4D /* AppDelegate.swift in Sources */,
 				0B953F4F26ECF9A300926A4D /* SceneDelegate.swift in Sources */,
+				0B6C4C0C26F63A96004EB72F /* BusinessDetailsVC.swift in Sources */,
 				0B953F6126ED073700926A4D /* YelpCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
