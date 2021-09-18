@@ -48,9 +48,14 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pPH-hM-5o0">
+                                                    <rect key="frame" x="17" y="11" width="115" height="128"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="businessImage" destination="pPH-hM-5o0" id="rLs-xB-i4b"/>
                                             <outlet property="phoneNumber" destination="4ld-cp-3mn" id="HtM-vi-QF5"/>
                                             <outlet property="reviewCount" destination="iNw-hE-bau" id="YNG-On-KlO"/>
                                             <outlet property="title" destination="3ue-UB-w5q" id="ooC-YO-CgV"/>

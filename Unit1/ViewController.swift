@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import AlamofireImage
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
@@ -61,10 +62,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let cell = tableView.dequeueReusableCell(withIdentifier: "YelpCell", for: indexPath) as! YelpCell
 
         let business = businesses![indexPath.row]
+        let url = URL(string: business.image_url)
         
         cell.title.text = business.name
         cell.phoneNumber.text = business.phone
         cell.reviewCount.text = "\(business.review_count)"
+        cell.businessImage.af.setImage(withURL: url!)
         
         return cell
     }
@@ -78,5 +81,6 @@ struct Business: Codable {
     let name: String
     let review_count: Int
     let phone: String
+    let image_url: String
 }
 

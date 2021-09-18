@@ -12,6 +12,8 @@ class YelpCell: UITableViewCell {
     @IBOutlet weak var phoneNumber: UILabel!
     @IBOutlet weak var reviewCount: UILabel!
     
+    @IBOutlet weak var businessImage: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
